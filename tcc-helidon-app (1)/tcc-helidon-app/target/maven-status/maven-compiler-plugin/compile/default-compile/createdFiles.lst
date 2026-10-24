@@ -1,0 +1,14 @@
+com/tcc/streamingapp/lab/ResultadoLab.class
+com/tcc/streamingapp/Main.class
+com/tcc/streamingapp/repository/TituloRepository$TituloBasico.class
+com/tcc/streamingapp/lab/LabWorkloads$Trabalho.class
+com/tcc/streamingapp/service/TituloService.class
+com/tcc/streamingapp/dto/AvaliacaoResponse.class
+com/tcc/streamingapp/lab/LabWorkloads.class
+com/tcc/streamingapp/dto/TituloDetalhesResponse.class
+com/tcc/streamingapp/lab/InfoLab.class
+com/tcc/streamingapp/repository/TituloRepository.class
+com/tcc/streamingapp/exception/TituloNaoEncontradoException.class
+com/tcc/streamingapp/lab/TetoLab.class
+com/tcc/streamingapp/lab/LabService.class
+com/tcc/streamingapp/dto/EstatisticasAvaliacao.class

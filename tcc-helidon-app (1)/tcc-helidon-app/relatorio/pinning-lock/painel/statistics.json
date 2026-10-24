@@ -1,0 +1,34 @@
+{
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 108075,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 102.14249363867764,
+    "medianResTime" : 101.0,
+    "minResTime" : 100.0,
+    "maxResTime" : 233.0,
+    "pct1ResTime" : 103.0,
+    "pct2ResTime" : 105.0,
+    "pct3ResTime" : 111.0,
+    "throughput" : 1794.0737051792828,
+    "receivedKBytesPerSec" : 572.4900041760043,
+    "sentKBytesPerSec" : 248.78756458540835
+  },
+  "pinning-lock" : {
+    "transaction" : "pinning-lock",
+    "sampleCount" : 108075,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 102.14249363867764,
+    "medianResTime" : 101.0,
+    "minResTime" : 100.0,
+    "maxResTime" : 233.0,
+    "pct1ResTime" : 103.0,
+    "pct2ResTime" : 105.0,
+    "pct3ResTime" : 111.0,
+    "throughput" : 1794.0737051792828,
+    "receivedKBytesPerSec" : 572.4900041760043,
+    "sentKBytesPerSec" : 248.78756458540835
+  }
+}

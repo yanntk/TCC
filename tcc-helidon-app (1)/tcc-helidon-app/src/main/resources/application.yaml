@@ -1,0 +1,16 @@
+server:
+  port: 8081
+  host: 0.0.0.0
+
+db:
+  url: jdbc:postgresql://localhost:5432/tcc_streaming
+  username: postgres
+  password: postgres
+  maximum-pool-size: 30
+  minimum-idle: 5
+  connection-timeout: 5000
+
+lab:
+  db:
+    permits: 30
+    semaforo-timeout-ms: 10000

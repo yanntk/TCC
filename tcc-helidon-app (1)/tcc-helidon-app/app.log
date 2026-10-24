@@ -1,0 +1,25 @@
+>> Helidon SE (Virtual Threads nativas) opções JVM: -XX:StartFlightRecording=filename=pinning-helidon.jfr,settings=profile
+[1,531s][info][jfr,startup] Started recording 1. No limit specified, using maxsize=250MB as default.
+[1,531s][info][jfr,startup] 
+[1,531s][info][jfr,startup] Use jcmd 6125 JFR.dump name=1 to copy recording data to file.
+out. 23, 2026 3:33:17 PM io.helidon.logging.jul.JulProvider doConfigureLogging
+INFORMAÇÕES: Logging at runtime configured using defaults
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+out. 23, 2026 3:33:19 PM io.helidon.common.features.HelidonFeatures features
+INFORMAÇÕES: Helidon SE 4.5.5 features: [Config, Encoding, Media, Registry, WebServer]
+out. 23, 2026 3:33:19 PM io.helidon.webserver.ServerListener startIt
+INFORMAÇÕES: [0x0c8b1017] http://0.0.0.0:8081 bound for socket '@default'
+out. 23, 2026 3:33:19 PM io.helidon.webserver.LoomServer startIt
+INFORMAÇÕES: Started all channels in 48 milliseconds. 3462 milliseconds since JVM startup. Java 21.0.12.1+1-1-24.04.4-Ubuntu
+Helidon SE no ar! http://localhost:8081
+  GET /titulos/{id}/detalhes
+  GET /lab/info
+  GET /lab/io | /lab/cpu | /lab/io-cpu | /lab/pinning/* | /lab/db/{id}/com-semaforo
+out. 23, 2026 3:33:34 PM io.helidon.Main shutdown
+INFORMAÇÕES: Shutdown requested by JVM shutting down
+out. 23, 2026 3:33:34 PM io.helidon.webserver.ServerListener listen
+INFORMAÇÕES: [0x0c8b1017] @default socket closed.
+out. 23, 2026 3:33:34 PM io.helidon.Main shutdown
+INFORMAÇÕES: Shutdown finished

@@ -1,0 +1,17 @@
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+Creating summariser <summary>
+Created the tree successfully using jmeter/plano-lab.jmx
+Starting standalone test @ 2026 Oct 23 07:53:10 GFT (1792752790416)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +    190 in 00:00:19 =    9.7/s Avg:  5135 Min:   217 Max: 10049 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+summary +    299 in 00:00:30 =   10.0/s Avg: 18745 Min:  9897 Max: 20095 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+summary =    489 in 00:00:50 =    9.9/s Avg: 13457 Min:   217 Max: 20095 Err:     0 (0.00%)
+summary +    299 in 00:00:30 =   10.0/s Avg: 20114 Min: 17869 Max: 60151 Err:    11 (3.68%) Active: 7 Started: 200 Finished: 193
+summary =    788 in 00:01:20 =    9.9/s Avg: 15983 Min:   217 Max: 60151 Err:    11 (1.40%)
+summary +      6 in 00:00:01 =    9.9/s Avg: 46178 Min: 26707 Max: 56342 Err:     0 (0.00%) Active: 0 Started: 200 Finished: 200
+summary =    794 in 00:01:20 =    9.9/s Avg: 16211 Min:   217 Max: 60151 Err:    11 (1.39%)
+Tidying up ...    @ 2026 Oct 23 07:54:30 GFT (1792752870701)
+... end of run

@@ -1,0 +1,34 @@
+{
+  "db-semaforo" : {
+    "transaction" : "db-semaforo",
+    "sampleCount" : 88916,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 124.26547528003934,
+    "medianResTime" : 129.0,
+    "minResTime" : 1.0,
+    "maxResTime" : 2440.0,
+    "pct1ResTime" : 206.0,
+    "pct2ResTime" : 248.95000000000073,
+    "pct3ResTime" : 352.0,
+    "throughput" : 1475.7107529915522,
+    "receivedKBytesPerSec" : 1891.2411356851526,
+    "sentKBytesPerSec" : 205.92155745875723
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 88916,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 124.26547528003934,
+    "medianResTime" : 129.0,
+    "minResTime" : 1.0,
+    "maxResTime" : 2440.0,
+    "pct1ResTime" : 206.0,
+    "pct2ResTime" : 248.95000000000073,
+    "pct3ResTime" : 352.0,
+    "throughput" : 1475.7107529915522,
+    "receivedKBytesPerSec" : 1891.2411356851526,
+    "sentKBytesPerSec" : 205.92155745875723
+  }
+}

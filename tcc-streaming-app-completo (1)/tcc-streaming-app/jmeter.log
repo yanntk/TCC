@@ -1,0 +1,738 @@
+2026-10-23 07:40:54,853 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-10-23 07:40:54,891 INFO o.a.j.JMeter: Loading user properties from: /home/yan/apache-jmeter-5.6.3/bin/user.properties
+2026-10-23 07:40:54,891 INFO o.a.j.JMeter: Loading system properties from: /home/yan/apache-jmeter-5.6.3/bin/system.properties
+2026-10-23 07:40:54,892 INFO o.a.j.JMeter: Setting JMeter property: host=localhost
+2026-10-23 07:40:54,892 INFO o.a.j.JMeter: Setting JMeter property: port=8080
+2026-10-23 07:40:54,892 INFO o.a.j.JMeter: Setting JMeter property: cenario=db-semaforo
+2026-10-23 07:40:54,892 INFO o.a.j.JMeter: Setting JMeter property: threads=200
+2026-10-23 07:40:54,893 INFO o.a.j.JMeter: Setting JMeter property: rampup=10
+2026-10-23 07:40:54,893 INFO o.a.j.JMeter: Setting JMeter property: duration=60
+2026-10-23 07:40:54,893 INFO o.a.j.JMeter: Setting JMeter property: ms=100
+2026-10-23 07:40:54,893 INFO o.a.j.JMeter: Setting JMeter property: iteracoes=50000
+2026-10-23 07:40:54,893 INFO o.a.j.JMeter: Setting JMeter property: maxid=10000
+2026-10-23 07:40:54,904 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-10-23 07:40:54,905 INFO o.a.j.JMeter: Version 5.6.3
+2026-10-23 07:40:54,905 INFO o.a.j.JMeter: java.version=21.0.12.1
+2026-10-23 07:40:54,905 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2026-10-23 07:40:54,905 INFO o.a.j.JMeter: os.name=Linux
+2026-10-23 07:40:54,905 INFO o.a.j.JMeter: os.arch=amd64
+2026-10-23 07:40:54,905 INFO o.a.j.JMeter: os.version=7.0.0-38-generic
+2026-10-23 07:40:54,905 INFO o.a.j.JMeter: file.encoding=UTF-8
+2026-10-23 07:40:54,905 INFO o.a.j.JMeter: java.awt.headless=true
+2026-10-23 07:40:54,906 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-10-23 07:40:54,906 INFO o.a.j.JMeter: Available Processors =4
+2026-10-23 07:40:54,927 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-10-23 07:40:54,928 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-10-23 07:40:54,928 INFO o.a.j.JMeter: JMeterHome=/home/yan/apache-jmeter-5.6.3
+2026-10-23 07:40:54,928 INFO o.a.j.JMeter: user.dir  =/home/yan/Downloads/tcc-streaming-app-completo (1)/tcc-streaming-app
+2026-10-23 07:40:54,928 INFO o.a.j.JMeter: PWD       =/home/yan/Downloads/tcc-streaming-app-completo (1)/tcc-streaming-app
+2026-10-23 07:40:54,929 INFO o.a.j.JMeter: IP: 127.0.1.1 Name: yan-HP-1000-Notebook-PC FullName: yan-HP-1000-Notebook-PC
+2026-10-23 07:40:54,958 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/home/yan/Downloads/tcc-streaming-app-completo (1)/tcc-streaming-app/relatorio.novo/db-semaforo/painel'
+2026-10-23 07:40:54,963 INFO o.a.j.s.FileServer: Default base='/home/yan/Downloads/tcc-streaming-app-completo (1)/tcc-streaming-app'
+2026-10-23 07:40:54,967 INFO o.a.j.s.FileServer: Set new base='/home/yan/Downloads/tcc-streaming-app-completo (1)/tcc-streaming-app/jmeter'
+2026-10-23 07:40:55,473 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-10-23 07:40:55,519 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-10-23 07:40:55,525 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-10-23 07:40:55,533 INFO o.a.j.s.SaveService: Loading file: jmeter/plano-lab.jmx
+2026-10-23 07:40:55,619 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-10-23 07:40:55,619 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-10-23 07:40:55,619 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-10-23 07:40:55,619 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-10-23 07:40:55,620 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-10-23 07:40:55,620 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-10-23 07:40:55,651 INFO o.a.j.JMeter: Creating summariser <summary>
+2026-10-23 07:40:55,668 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2026-10-23 07:40:55,668 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: relatorio.novo/db-semaforo/resultado.jtl
+2026-10-23 07:40:55,668 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /home/yan/apache-jmeter-5.6.3/bin/reportgenerator.properties
+2026-10-23 07:40:55,669 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2026-10-23 07:40:55,676 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2026-10-23 07:40:55,680 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2026-10-23 07:40:55,680 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2026-10-23 07:40:55,681 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2026-10-23 07:40:55,681 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2026-10-23 07:40:55,681 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2026-10-23 07:40:55,681 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2026-10-23 07:40:55,681 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2026-10-23 07:40:55,682 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2026-10-23 07:40:55,687 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2026-10-23 07:40:55,687 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-10-23 07:40:55,688 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2026-10-23 07:40:55,688 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2026-10-23 07:40:55,688 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2026-10-23 07:40:55,688 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2026-10-23 07:40:55,689 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-10-23 07:40:55,689 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-10-23 07:40:55,689 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-10-23 07:40:55,690 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-10-23 07:40:55,691 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2026-10-23 07:40:55,691 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2026-10-23 07:40:55,692 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2026-10-23 07:40:55,693 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2026-10-23 07:40:55,693 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2026-10-23 07:40:55,693 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2026-10-23 07:40:55,731 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-10-23 07:40:55,734 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-10-23 07:40:55,734 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-10-23 07:40:55,755 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2026-10-23 07:40:55,756 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2026-10-23 07:40:55,973 INFO o.a.j.JMeter: Running test (1792752055973)
+2026-10-23 07:40:56,016 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Usuarios (200)
+2026-10-23 07:40:56,017 INFO o.a.j.e.StandardJMeterEngine: Starting 200 threads for group Usuarios (200).
+2026-10-23 07:40:56,017 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-10-23 07:40:56,017 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=200 ramp-up=10 delayedStart=false
+2026-10-23 07:40:56,034 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-1
+2026-10-23 07:40:56,083 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-2
+2026-10-23 07:40:56,092 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = yan-HP-1000-Notebook-PC
+2026-10-23 07:40:56,115 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2026-10-23 07:40:56,118 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-10-23 07:40:56,118 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-10-23 07:40:56,119 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-10-23 07:40:56,119 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-10-23 07:40:56,129 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-3
+2026-10-23 07:40:56,174 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-4
+2026-10-23 07:40:56,221 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-5
+2026-10-23 07:40:56,273 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-6
+2026-10-23 07:40:56,321 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-7
+2026-10-23 07:40:56,373 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-8
+2026-10-23 07:40:56,426 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-9
+2026-10-23 07:40:56,477 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-10
+2026-10-23 07:40:56,522 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-11
+2026-10-23 07:40:56,570 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-12
+2026-10-23 07:40:56,603 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-10-23 07:40:56,604 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-10-23 07:40:56,639 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-13
+2026-10-23 07:40:56,676 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-14
+2026-10-23 07:40:56,725 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-15
+2026-10-23 07:40:56,772 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-16
+2026-10-23 07:40:56,825 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-17
+2026-10-23 07:40:56,872 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-18
+2026-10-23 07:40:56,927 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-19
+2026-10-23 07:40:56,974 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-20
+2026-10-23 07:40:57,033 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-21
+2026-10-23 07:40:57,070 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-22
+2026-10-23 07:40:57,120 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-23
+2026-10-23 07:40:57,171 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-24
+2026-10-23 07:40:57,222 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-25
+2026-10-23 07:40:57,273 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-26
+2026-10-23 07:40:57,322 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-27
+2026-10-23 07:40:57,373 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-28
+2026-10-23 07:40:57,420 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-29
+2026-10-23 07:40:57,471 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-30
+2026-10-23 07:40:57,521 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-31
+2026-10-23 07:40:57,575 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-32
+2026-10-23 07:40:57,622 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-33
+2026-10-23 07:40:57,671 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-34
+2026-10-23 07:40:57,726 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-35
+2026-10-23 07:40:57,770 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-36
+2026-10-23 07:40:57,826 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-37
+2026-10-23 07:40:57,870 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-38
+2026-10-23 07:40:57,918 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-39
+2026-10-23 07:40:57,969 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-40
+2026-10-23 07:40:58,024 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-41
+2026-10-23 07:40:58,068 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-42
+2026-10-23 07:40:58,124 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-43
+2026-10-23 07:40:58,175 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-44
+2026-10-23 07:40:58,221 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-45
+2026-10-23 07:40:58,270 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-46
+2026-10-23 07:40:58,321 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-47
+2026-10-23 07:40:58,372 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-48
+2026-10-23 07:40:58,424 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-49
+2026-10-23 07:40:58,476 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-50
+2026-10-23 07:40:58,523 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-51
+2026-10-23 07:40:58,571 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-52
+2026-10-23 07:40:58,623 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-53
+2026-10-23 07:40:58,672 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-54
+2026-10-23 07:40:58,721 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-55
+2026-10-23 07:40:58,771 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-56
+2026-10-23 07:40:58,820 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-57
+2026-10-23 07:40:58,871 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-58
+2026-10-23 07:40:58,921 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-59
+2026-10-23 07:40:58,973 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-60
+2026-10-23 07:40:59,043 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-61
+2026-10-23 07:40:59,072 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-62
+2026-10-23 07:40:59,120 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-63
+2026-10-23 07:40:59,175 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-64
+2026-10-23 07:40:59,221 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-65
+2026-10-23 07:40:59,276 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-66
+2026-10-23 07:40:59,320 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-67
+2026-10-23 07:40:59,372 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-68
+2026-10-23 07:40:59,421 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-69
+2026-10-23 07:40:59,472 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-70
+2026-10-23 07:40:59,520 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-71
+2026-10-23 07:40:59,568 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-72
+2026-10-23 07:40:59,619 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-73
+2026-10-23 07:40:59,668 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-74
+2026-10-23 07:40:59,720 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-75
+2026-10-23 07:40:59,772 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-76
+2026-10-23 07:40:59,822 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-77
+2026-10-23 07:40:59,870 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-78
+2026-10-23 07:40:59,922 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-79
+2026-10-23 07:40:59,969 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-80
+2026-10-23 07:41:00,017 INFO o.a.j.r.Summariser: summary +   1449 in 00:00:04 =  359.7/s Avg:   101 Min:     5 Max:   683 Err:     0 (0.00%) Active: 80 Started: 80 Finished: 0
+2026-10-23 07:41:00,025 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-81
+2026-10-23 07:41:00,073 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-82
+2026-10-23 07:41:00,120 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-83
+2026-10-23 07:41:00,175 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-84
+2026-10-23 07:41:00,222 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-85
+2026-10-23 07:41:00,274 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-86
+2026-10-23 07:41:00,323 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-87
+2026-10-23 07:41:00,371 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-88
+2026-10-23 07:41:00,421 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-89
+2026-10-23 07:41:00,471 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-90
+2026-10-23 07:41:00,521 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-91
+2026-10-23 07:41:00,571 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-92
+2026-10-23 07:41:00,620 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-93
+2026-10-23 07:41:00,675 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-94
+2026-10-23 07:41:00,724 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-95
+2026-10-23 07:41:00,772 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-96
+2026-10-23 07:41:00,822 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-97
+2026-10-23 07:41:00,869 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-98
+2026-10-23 07:41:00,920 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-99
+2026-10-23 07:41:00,977 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-100
+2026-10-23 07:41:01,022 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-101
+2026-10-23 07:41:01,072 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-102
+2026-10-23 07:41:01,120 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-103
+2026-10-23 07:41:01,169 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-104
+2026-10-23 07:41:01,221 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-105
+2026-10-23 07:41:01,271 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-106
+2026-10-23 07:41:01,321 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-107
+2026-10-23 07:41:01,375 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-108
+2026-10-23 07:41:01,420 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-109
+2026-10-23 07:41:01,475 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-110
+2026-10-23 07:41:01,522 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-111
+2026-10-23 07:41:01,574 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-112
+2026-10-23 07:41:01,623 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-113
+2026-10-23 07:41:01,670 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-114
+2026-10-23 07:41:01,720 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-115
+2026-10-23 07:41:01,769 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-116
+2026-10-23 07:41:01,827 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-117
+2026-10-23 07:41:01,872 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-118
+2026-10-23 07:41:01,923 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-119
+2026-10-23 07:41:01,971 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-120
+2026-10-23 07:41:02,018 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-121
+2026-10-23 07:41:02,071 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-122
+2026-10-23 07:41:02,118 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-123
+2026-10-23 07:41:02,170 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-124
+2026-10-23 07:41:02,223 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-125
+2026-10-23 07:41:02,272 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-126
+2026-10-23 07:41:02,320 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-127
+2026-10-23 07:41:02,373 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-128
+2026-10-23 07:41:02,426 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-129
+2026-10-23 07:41:02,469 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-130
+2026-10-23 07:41:02,520 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-131
+2026-10-23 07:41:02,570 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-132
+2026-10-23 07:41:02,619 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-133
+2026-10-23 07:41:02,670 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-134
+2026-10-23 07:41:02,737 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-135
+2026-10-23 07:41:02,784 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-136
+2026-10-23 07:41:02,820 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-137
+2026-10-23 07:41:02,869 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-138
+2026-10-23 07:41:02,920 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-139
+2026-10-23 07:41:02,972 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-140
+2026-10-23 07:41:03,023 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-141
+2026-10-23 07:41:03,071 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-142
+2026-10-23 07:41:03,121 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-143
+2026-10-23 07:41:03,172 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-144
+2026-10-23 07:41:03,220 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-145
+2026-10-23 07:41:03,268 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-146
+2026-10-23 07:41:03,325 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-147
+2026-10-23 07:41:03,373 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-148
+2026-10-23 07:41:03,420 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-149
+2026-10-23 07:41:03,472 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-150
+2026-10-23 07:41:03,531 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-151
+2026-10-23 07:41:03,598 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-152
+2026-10-23 07:41:03,625 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-153
+2026-10-23 07:41:03,673 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-154
+2026-10-23 07:41:03,723 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-155
+2026-10-23 07:41:03,776 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-156
+2026-10-23 07:41:03,821 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-157
+2026-10-23 07:41:03,873 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-158
+2026-10-23 07:41:03,922 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-159
+2026-10-23 07:41:03,980 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-160
+2026-10-23 07:41:04,028 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-161
+2026-10-23 07:41:04,074 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-162
+2026-10-23 07:41:04,121 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-163
+2026-10-23 07:41:04,170 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-164
+2026-10-23 07:41:04,222 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-165
+2026-10-23 07:41:04,274 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-166
+2026-10-23 07:41:04,321 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-167
+2026-10-23 07:41:04,370 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-168
+2026-10-23 07:41:04,423 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-169
+2026-10-23 07:41:04,469 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-170
+2026-10-23 07:41:04,520 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-171
+2026-10-23 07:41:04,570 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-172
+2026-10-23 07:41:04,624 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-173
+2026-10-23 07:41:04,670 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-174
+2026-10-23 07:41:04,721 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-175
+2026-10-23 07:41:04,769 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-176
+2026-10-23 07:41:04,820 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-177
+2026-10-23 07:41:04,871 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-178
+2026-10-23 07:41:04,919 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-179
+2026-10-23 07:41:04,972 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-180
+2026-10-23 07:41:05,022 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-181
+2026-10-23 07:41:05,071 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-182
+2026-10-23 07:41:05,120 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-183
+2026-10-23 07:41:05,170 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-184
+2026-10-23 07:41:05,220 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-185
+2026-10-23 07:41:05,269 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-186
+2026-10-23 07:41:05,320 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-187
+2026-10-23 07:41:05,370 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-188
+2026-10-23 07:41:05,459 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-189
+2026-10-23 07:41:05,471 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-190
+2026-10-23 07:41:05,520 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-191
+2026-10-23 07:41:05,573 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-192
+2026-10-23 07:41:05,623 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-193
+2026-10-23 07:41:05,670 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-194
+2026-10-23 07:41:05,720 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-195
+2026-10-23 07:41:05,772 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-196
+2026-10-23 07:41:05,822 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-197
+2026-10-23 07:41:05,870 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-198
+2026-10-23 07:41:05,919 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-199
+2026-10-23 07:41:05,971 INFO o.a.j.t.JMeterThread: Thread started: Usuarios (200) 1-200
+2026-10-23 07:41:30,002 INFO o.a.j.r.Summariser: summary +  25407 in 00:00:30 =  846.9/s Avg:   221 Min:     1 Max:  3933 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2026-10-23 07:41:30,003 INFO o.a.j.r.Summariser: summary =  26856 in 00:00:34 =  789.2/s Avg:   214 Min:     1 Max:  3933 Err:     0 (0.00%)
+2026-10-23 07:41:56,037 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-4
+2026-10-23 07:41:56,037 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-4
+2026-10-23 07:41:56,047 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-8
+2026-10-23 07:41:56,048 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-8
+2026-10-23 07:41:56,076 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-7
+2026-10-23 07:41:56,077 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-7
+2026-10-23 07:41:56,084 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-9
+2026-10-23 07:41:56,085 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-9
+2026-10-23 07:41:56,091 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-2
+2026-10-23 07:41:56,091 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-2
+2026-10-23 07:41:56,100 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-16
+2026-10-23 07:41:56,100 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-16
+2026-10-23 07:41:56,102 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-10
+2026-10-23 07:41:56,103 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-10
+2026-10-23 07:41:56,107 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-6
+2026-10-23 07:41:56,107 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-6
+2026-10-23 07:41:56,108 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-1
+2026-10-23 07:41:56,108 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-1
+2026-10-23 07:41:56,112 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-15
+2026-10-23 07:41:56,113 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-15
+2026-10-23 07:41:56,123 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-31
+2026-10-23 07:41:56,123 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-31
+2026-10-23 07:41:56,126 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-11
+2026-10-23 07:41:56,126 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-21
+2026-10-23 07:41:56,126 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-21
+2026-10-23 07:41:56,126 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-27
+2026-10-23 07:41:56,126 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-11
+2026-10-23 07:41:56,127 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-27
+2026-10-23 07:41:56,129 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-14
+2026-10-23 07:41:56,129 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-14
+2026-10-23 07:41:56,138 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-37
+2026-10-23 07:41:56,138 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-37
+2026-10-23 07:41:56,141 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-17
+2026-10-23 07:41:56,142 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-17
+2026-10-23 07:41:56,154 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-3
+2026-10-23 07:41:56,154 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-3
+2026-10-23 07:41:56,156 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-22
+2026-10-23 07:41:56,157 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-43
+2026-10-23 07:41:56,158 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-22
+2026-10-23 07:41:56,158 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-43
+2026-10-23 07:41:56,159 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-40
+2026-10-23 07:41:56,159 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-40
+2026-10-23 07:41:56,160 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-29
+2026-10-23 07:41:56,160 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-29
+2026-10-23 07:41:56,168 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-33
+2026-10-23 07:41:56,168 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-18
+2026-10-23 07:41:56,168 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-33
+2026-10-23 07:41:56,168 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-18
+2026-10-23 07:41:56,176 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-23
+2026-10-23 07:41:56,177 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-39
+2026-10-23 07:41:56,177 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-23
+2026-10-23 07:41:56,177 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-5
+2026-10-23 07:41:56,177 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-5
+2026-10-23 07:41:56,177 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-39
+2026-10-23 07:41:56,179 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-35
+2026-10-23 07:41:56,179 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-35
+2026-10-23 07:41:56,181 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-19
+2026-10-23 07:41:56,181 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-19
+2026-10-23 07:41:56,188 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-13
+2026-10-23 07:41:56,188 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-13
+2026-10-23 07:41:56,190 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-12
+2026-10-23 07:41:56,190 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-12
+2026-10-23 07:41:56,195 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-47
+2026-10-23 07:41:56,196 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-24
+2026-10-23 07:41:56,196 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-47
+2026-10-23 07:41:56,196 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-52
+2026-10-23 07:41:56,197 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-24
+2026-10-23 07:41:56,197 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-52
+2026-10-23 07:41:56,198 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-56
+2026-10-23 07:41:56,198 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-38
+2026-10-23 07:41:56,199 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-38
+2026-10-23 07:41:56,199 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-53
+2026-10-23 07:41:56,199 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-53
+2026-10-23 07:41:56,198 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-56
+2026-10-23 07:41:56,203 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-42
+2026-10-23 07:41:56,203 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-42
+2026-10-23 07:41:56,207 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-50
+2026-10-23 07:41:56,207 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-20
+2026-10-23 07:41:56,207 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-50
+2026-10-23 07:41:56,207 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-20
+2026-10-23 07:41:56,211 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-34
+2026-10-23 07:41:56,211 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-34
+2026-10-23 07:41:56,217 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-54
+2026-10-23 07:41:56,217 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-54
+2026-10-23 07:41:56,218 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-57
+2026-10-23 07:41:56,219 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-57
+2026-10-23 07:41:56,224 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-51
+2026-10-23 07:41:56,225 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-51
+2026-10-23 07:41:56,227 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-63
+2026-10-23 07:41:56,227 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-63
+2026-10-23 07:41:56,227 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-32
+2026-10-23 07:41:56,229 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-32
+2026-10-23 07:41:56,229 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-26
+2026-10-23 07:41:56,230 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-26
+2026-10-23 07:41:56,233 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-25
+2026-10-23 07:41:56,233 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-25
+2026-10-23 07:41:56,235 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-30
+2026-10-23 07:41:56,237 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-30
+2026-10-23 07:41:56,239 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-49
+2026-10-23 07:41:56,240 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-49
+2026-10-23 07:41:56,241 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-36
+2026-10-23 07:41:56,242 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-36
+2026-10-23 07:41:56,244 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-28
+2026-10-23 07:41:56,244 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-74
+2026-10-23 07:41:56,244 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-28
+2026-10-23 07:41:56,245 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-74
+2026-10-23 07:41:56,247 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-41
+2026-10-23 07:41:56,247 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-41
+2026-10-23 07:41:56,253 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-60
+2026-10-23 07:41:56,253 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-60
+2026-10-23 07:41:56,260 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-61
+2026-10-23 07:41:56,260 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-61
+2026-10-23 07:41:56,262 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-83
+2026-10-23 07:41:56,262 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-83
+2026-10-23 07:41:56,262 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-58
+2026-10-23 07:41:56,263 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-58
+2026-10-23 07:41:56,262 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-72
+2026-10-23 07:41:56,263 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-72
+2026-10-23 07:41:56,264 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-70
+2026-10-23 07:41:56,265 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-70
+2026-10-23 07:41:56,265 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-79
+2026-10-23 07:41:56,265 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-79
+2026-10-23 07:41:56,268 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-65
+2026-10-23 07:41:56,268 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-65
+2026-10-23 07:41:56,270 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-44
+2026-10-23 07:41:56,270 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-44
+2026-10-23 07:41:56,272 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-46
+2026-10-23 07:41:56,272 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-46
+2026-10-23 07:41:56,275 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-45
+2026-10-23 07:41:56,275 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-45
+2026-10-23 07:41:56,276 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-81
+2026-10-23 07:41:56,276 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-81
+2026-10-23 07:41:56,277 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-68
+2026-10-23 07:41:56,277 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-68
+2026-10-23 07:41:56,278 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-62
+2026-10-23 07:41:56,278 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-62
+2026-10-23 07:41:56,278 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-69
+2026-10-23 07:41:56,279 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-69
+2026-10-23 07:41:56,280 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-64
+2026-10-23 07:41:56,281 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-64
+2026-10-23 07:41:56,282 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-80
+2026-10-23 07:41:56,282 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-80
+2026-10-23 07:41:56,285 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-85
+2026-10-23 07:41:56,285 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-48
+2026-10-23 07:41:56,285 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-85
+2026-10-23 07:41:56,285 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-48
+2026-10-23 07:41:56,287 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-84
+2026-10-23 07:41:56,287 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-84
+2026-10-23 07:41:56,288 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-76
+2026-10-23 07:41:56,288 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-76
+2026-10-23 07:41:56,292 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-55
+2026-10-23 07:41:56,292 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-55
+2026-10-23 07:41:56,293 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-59
+2026-10-23 07:41:56,293 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-59
+2026-10-23 07:41:56,298 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-71
+2026-10-23 07:41:56,298 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-71
+2026-10-23 07:41:56,302 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-87
+2026-10-23 07:41:56,302 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-87
+2026-10-23 07:41:56,306 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-95
+2026-10-23 07:41:56,306 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-95
+2026-10-23 07:41:56,307 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-90
+2026-10-23 07:41:56,308 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-90
+2026-10-23 07:41:56,308 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-96
+2026-10-23 07:41:56,308 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-96
+2026-10-23 07:41:56,309 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-66
+2026-10-23 07:41:56,309 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-66
+2026-10-23 07:41:56,312 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-78
+2026-10-23 07:41:56,313 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-78
+2026-10-23 07:41:56,315 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-86
+2026-10-23 07:41:56,315 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-86
+2026-10-23 07:41:56,316 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-89
+2026-10-23 07:41:56,316 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-89
+2026-10-23 07:41:56,319 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-67
+2026-10-23 07:41:56,319 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-67
+2026-10-23 07:41:56,336 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-109
+2026-10-23 07:41:56,336 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-91
+2026-10-23 07:41:56,336 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-109
+2026-10-23 07:41:56,337 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-75
+2026-10-23 07:41:56,337 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-75
+2026-10-23 07:41:56,338 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-91
+2026-10-23 07:41:56,342 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-105
+2026-10-23 07:41:56,343 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-110
+2026-10-23 07:41:56,343 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-105
+2026-10-23 07:41:56,343 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-110
+2026-10-23 07:41:56,345 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-82
+2026-10-23 07:41:56,345 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-82
+2026-10-23 07:41:56,347 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-88
+2026-10-23 07:41:56,348 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-88
+2026-10-23 07:41:56,348 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-108
+2026-10-23 07:41:56,348 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-108
+2026-10-23 07:41:56,349 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-77
+2026-10-23 07:41:56,349 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-77
+2026-10-23 07:41:56,351 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-73
+2026-10-23 07:41:56,351 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-73
+2026-10-23 07:41:56,352 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-97
+2026-10-23 07:41:56,353 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-97
+2026-10-23 07:41:56,354 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-99
+2026-10-23 07:41:56,355 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-99
+2026-10-23 07:41:56,356 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-113
+2026-10-23 07:41:56,356 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-113
+2026-10-23 07:41:56,356 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-94
+2026-10-23 07:41:56,357 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-94
+2026-10-23 07:41:56,363 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-92
+2026-10-23 07:41:56,363 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-92
+2026-10-23 07:41:56,365 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-98
+2026-10-23 07:41:56,365 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-98
+2026-10-23 07:41:56,367 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-104
+2026-10-23 07:41:56,367 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-104
+2026-10-23 07:41:56,368 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-107
+2026-10-23 07:41:56,368 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-107
+2026-10-23 07:41:56,368 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-101
+2026-10-23 07:41:56,368 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-101
+2026-10-23 07:41:56,373 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-111
+2026-10-23 07:41:56,374 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-111
+2026-10-23 07:41:56,379 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-112
+2026-10-23 07:41:56,379 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-112
+2026-10-23 07:41:56,381 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-123
+2026-10-23 07:41:56,381 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-123
+2026-10-23 07:41:56,384 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-119
+2026-10-23 07:41:56,384 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-119
+2026-10-23 07:41:56,386 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-93
+2026-10-23 07:41:56,386 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-93
+2026-10-23 07:41:56,390 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-102
+2026-10-23 07:41:56,392 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-102
+2026-10-23 07:41:56,391 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-115
+2026-10-23 07:41:56,393 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-115
+2026-10-23 07:41:56,395 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-114
+2026-10-23 07:41:56,396 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-114
+2026-10-23 07:41:56,397 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-128
+2026-10-23 07:41:56,398 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-128
+2026-10-23 07:41:56,400 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-106
+2026-10-23 07:41:56,400 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-125
+2026-10-23 07:41:56,401 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-106
+2026-10-23 07:41:56,401 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-125
+2026-10-23 07:41:56,402 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-100
+2026-10-23 07:41:56,403 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-100
+2026-10-23 07:41:56,404 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-103
+2026-10-23 07:41:56,404 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-103
+2026-10-23 07:41:56,410 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-121
+2026-10-23 07:41:56,411 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-121
+2026-10-23 07:41:56,412 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-116
+2026-10-23 07:41:56,412 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-116
+2026-10-23 07:41:56,415 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-129
+2026-10-23 07:41:56,416 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-129
+2026-10-23 07:41:56,415 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-117
+2026-10-23 07:41:56,416 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-117
+2026-10-23 07:41:56,417 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-124
+2026-10-23 07:41:56,418 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-124
+2026-10-23 07:41:56,421 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-122
+2026-10-23 07:41:56,421 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-122
+2026-10-23 07:41:56,425 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-136
+2026-10-23 07:41:56,426 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-136
+2026-10-23 07:41:56,428 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-126
+2026-10-23 07:41:56,428 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-126
+2026-10-23 07:41:56,431 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-137
+2026-10-23 07:41:56,431 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-137
+2026-10-23 07:41:56,433 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-130
+2026-10-23 07:41:56,433 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-130
+2026-10-23 07:41:56,434 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-118
+2026-10-23 07:41:56,435 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-118
+2026-10-23 07:41:56,437 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-120
+2026-10-23 07:41:56,437 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-120
+2026-10-23 07:41:56,440 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-138
+2026-10-23 07:41:56,440 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-138
+2026-10-23 07:41:56,441 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-132
+2026-10-23 07:41:56,442 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-132
+2026-10-23 07:41:56,447 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-142
+2026-10-23 07:41:56,448 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-142
+2026-10-23 07:41:56,450 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-131
+2026-10-23 07:41:56,450 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-134
+2026-10-23 07:41:56,450 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-131
+2026-10-23 07:41:56,450 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-134
+2026-10-23 07:41:56,452 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-127
+2026-10-23 07:41:56,452 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-127
+2026-10-23 07:41:56,453 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-144
+2026-10-23 07:41:56,453 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-144
+2026-10-23 07:41:56,455 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-143
+2026-10-23 07:41:56,456 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-143
+2026-10-23 07:41:56,455 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-133
+2026-10-23 07:41:56,457 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-133
+2026-10-23 07:41:56,458 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-139
+2026-10-23 07:41:56,459 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-139
+2026-10-23 07:41:56,460 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-135
+2026-10-23 07:41:56,461 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-135
+2026-10-23 07:41:56,463 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-152
+2026-10-23 07:41:56,463 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-152
+2026-10-23 07:41:56,464 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-146
+2026-10-23 07:41:56,464 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-146
+2026-10-23 07:41:56,467 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-145
+2026-10-23 07:41:56,467 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-145
+2026-10-23 07:41:56,468 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-154
+2026-10-23 07:41:56,468 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-154
+2026-10-23 07:41:56,471 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-153
+2026-10-23 07:41:56,472 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-153
+2026-10-23 07:41:56,473 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-140
+2026-10-23 07:41:56,473 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-149
+2026-10-23 07:41:56,473 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-149
+2026-10-23 07:41:56,473 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-140
+2026-10-23 07:41:56,475 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-148
+2026-10-23 07:41:56,475 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-148
+2026-10-23 07:41:56,478 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-141
+2026-10-23 07:41:56,478 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-141
+2026-10-23 07:41:56,483 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-150
+2026-10-23 07:41:56,483 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-150
+2026-10-23 07:41:56,485 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-147
+2026-10-23 07:41:56,485 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-147
+2026-10-23 07:41:56,492 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-151
+2026-10-23 07:41:56,492 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-151
+2026-10-23 07:41:56,500 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-159
+2026-10-23 07:41:56,500 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-159
+2026-10-23 07:41:56,503 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-160
+2026-10-23 07:41:56,503 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-160
+2026-10-23 07:41:56,506 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-155
+2026-10-23 07:41:56,507 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-155
+2026-10-23 07:41:56,510 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-156
+2026-10-23 07:41:56,510 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-156
+2026-10-23 07:41:56,511 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-157
+2026-10-23 07:41:56,511 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-158
+2026-10-23 07:41:56,511 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-158
+2026-10-23 07:41:56,511 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-157
+2026-10-23 07:41:56,521 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-162
+2026-10-23 07:41:56,521 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-162
+2026-10-23 07:41:56,522 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-167
+2026-10-23 07:41:56,522 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-167
+2026-10-23 07:41:56,523 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-166
+2026-10-23 07:41:56,523 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-161
+2026-10-23 07:41:56,523 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-166
+2026-10-23 07:41:56,524 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-161
+2026-10-23 07:41:56,527 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-163
+2026-10-23 07:41:56,527 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-163
+2026-10-23 07:41:56,536 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-169
+2026-10-23 07:41:56,537 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-169
+2026-10-23 07:41:56,538 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-172
+2026-10-23 07:41:56,538 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-172
+2026-10-23 07:41:56,540 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-164
+2026-10-23 07:41:56,540 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-164
+2026-10-23 07:41:56,541 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-165
+2026-10-23 07:41:56,541 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-165
+2026-10-23 07:41:56,543 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-170
+2026-10-23 07:41:56,543 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-170
+2026-10-23 07:41:56,546 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-168
+2026-10-23 07:41:56,546 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-168
+2026-10-23 07:41:56,547 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-176
+2026-10-23 07:41:56,547 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-176
+2026-10-23 07:41:56,549 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-171
+2026-10-23 07:41:56,549 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-171
+2026-10-23 07:41:56,550 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-174
+2026-10-23 07:41:56,550 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-174
+2026-10-23 07:41:56,552 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-173
+2026-10-23 07:41:56,552 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-173
+2026-10-23 07:41:56,552 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-175
+2026-10-23 07:41:56,552 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-175
+2026-10-23 07:41:56,556 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-177
+2026-10-23 07:41:56,558 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-177
+2026-10-23 07:41:56,558 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-178
+2026-10-23 07:41:56,559 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-178
+2026-10-23 07:41:56,559 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-179
+2026-10-23 07:41:56,560 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-179
+2026-10-23 07:41:56,569 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-181
+2026-10-23 07:41:56,570 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-181
+2026-10-23 07:41:56,571 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-185
+2026-10-23 07:41:56,571 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-185
+2026-10-23 07:41:56,573 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-180
+2026-10-23 07:41:56,573 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-180
+2026-10-23 07:41:56,574 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-186
+2026-10-23 07:41:56,574 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-186
+2026-10-23 07:41:56,579 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-184
+2026-10-23 07:41:56,580 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-184
+2026-10-23 07:41:56,580 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-182
+2026-10-23 07:41:56,580 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-182
+2026-10-23 07:41:56,580 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-190
+2026-10-23 07:41:56,580 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-190
+2026-10-23 07:41:56,582 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-191
+2026-10-23 07:41:56,582 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-191
+2026-10-23 07:41:56,583 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-189
+2026-10-23 07:41:56,583 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-189
+2026-10-23 07:41:56,585 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-183
+2026-10-23 07:41:56,586 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-183
+2026-10-23 07:41:56,586 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-187
+2026-10-23 07:41:56,586 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-188
+2026-10-23 07:41:56,587 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-188
+2026-10-23 07:41:56,586 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-187
+2026-10-23 07:41:56,589 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-192
+2026-10-23 07:41:56,589 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-192
+2026-10-23 07:41:56,590 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-194
+2026-10-23 07:41:56,590 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-194
+2026-10-23 07:41:56,591 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-193
+2026-10-23 07:41:56,591 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-193
+2026-10-23 07:41:56,593 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-195
+2026-10-23 07:41:56,593 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-195
+2026-10-23 07:41:56,594 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-196
+2026-10-23 07:41:56,595 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-196
+2026-10-23 07:41:56,597 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-197
+2026-10-23 07:41:56,598 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-197
+2026-10-23 07:41:56,600 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-198
+2026-10-23 07:41:56,600 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-198
+2026-10-23 07:41:56,602 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-199
+2026-10-23 07:41:56,602 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-199
+2026-10-23 07:41:56,603 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Usuarios (200) 1-200
+2026-10-23 07:41:56,603 INFO o.a.j.t.JMeterThread: Thread finished: Usuarios (200) 1-200
+2026-10-23 07:41:56,603 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-10-23 07:41:56,604 INFO o.a.j.r.Summariser: summary +  39633 in 00:00:27 = 1489.8/s Avg:   133 Min:     2 Max:   269 Err:     0 (0.00%) Active: 0 Started: 200 Finished: 200
+2026-10-23 07:41:56,604 INFO o.a.j.r.Summariser: summary =  66489 in 00:01:01 = 1096.6/s Avg:   166 Min:     1 Max:  3933 Err:     0 (0.00%)
+2026-10-23 07:41:56,605 INFO o.a.j.JMeter: Generating Dashboard
+2026-10-23 07:41:56,605 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2026-10-23 07:41:56,621 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2026-10-23 07:41:58,799 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2026-10-23 07:41:58,800 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2026-10-23 07:41:58,801 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2026-10-23 07:41:58,801 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2026-10-23 07:41:58,817 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2026-10-23 07:41:58,819 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2026-10-23 07:41:58,819 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2026-10-23 07:41:58,819 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2026-10-23 07:41:59,439 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2026-10-23 07:41:59,446 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2026-10-23 07:41:59,447 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2026-10-23 07:41:59,447 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2026-10-23 07:41:59,967 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2026-10-23 07:41:59,972 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 465423 samples
+2026-10-23 07:41:59,972 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2026-10-23 07:41:59,973 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2026-10-23 07:41:59,973 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2026-10-23 07:41:59,974 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2026-10-23 07:41:59,974 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2026-10-23 07:41:59,974 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2026-10-23 07:41:59,977 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2026-10-23 07:41:59,978 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2026-10-23 07:41:59,979 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2026-10-23 07:41:59,979 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2026-10-23 07:41:59,979 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 997335 samples
+2026-10-23 07:41:59,979 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 199467 samples
+2026-10-23 07:41:59,979 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 66489 samples
+2026-10-23 07:41:59,979 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 66489 samples produced in 3s 321 ms on channel 0
+2026-10-23 07:41:59,980 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2026-10-23 07:42:00,073 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2026-10-23 07:42:00,073 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2026-10-23 07:42:00,074 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2026-10-23 07:42:00,074 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2026-10-23 07:42:00,075 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to /home/yan/Downloads/tcc-streaming-app-completo (1)/tcc-streaming-app/relatorio.novo/db-semaforo/painel/statistics.json
+2026-10-23 07:42:00,137 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2026-10-23 07:42:00,141 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: /home/yan/Downloads/tcc-streaming-app-completo (1)/tcc-streaming-app/relatorio.novo/db-semaforo/painel
+2026-10-23 07:42:00,298 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: /home/yan/Downloads/tcc-streaming-app-completo (1)/tcc-streaming-app/relatorio.novo/db-semaforo/painel, creating folder structure
+2026-10-23 07:42:00,301 INFO o.a.j.r.d.TemplateVisitor: Copying folder from '/home/yan/apache-jmeter-5.6.3/bin/report-template' to '/home/yan/Downloads/tcc-streaming-app-completo (1)/tcc-streaming-app/relatorio.novo/db-semaforo/painel', got message: /home/yan/Downloads/tcc-streaming-app-completo (1)/tcc-streaming-app/relatorio.novo/db-semaforo/painel, found non empty folder with following content [/home/yan/Downloads/tcc-streaming-app-completo (1)/tcc-streaming-app/relatorio.novo/db-semaforo/painel/statistics.json], will be ignored
+2026-10-23 07:42:00,544 INFO o.a.j.JMeter: Dashboard generated
