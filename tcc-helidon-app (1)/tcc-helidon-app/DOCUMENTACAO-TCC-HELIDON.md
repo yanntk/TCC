@@ -1,6 +1,6 @@
-# TCC — Laboratório de Virtual Threads com Helidon SE (Java 21)
+# TCC — Laboratório das Threads com Helidon SE (Java 21)
 
-Documentação técnica e acadêmica do projeto **tcc-helidon-app**: aplicação de streaming
+Documentação técnica  do projeto **tcc-helidon-app**: aplicação de streaming
 (títulos, gêneros, avaliações) em **Helidon SE 4.5**, com PostgreSQL, HikariCP e laboratório
 de concorrência medido via JMeter — comparável ao projeto Spring Boot irmão (porta 8080).
 
