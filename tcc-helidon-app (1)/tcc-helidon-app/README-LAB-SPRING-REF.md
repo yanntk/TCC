@@ -147,7 +147,7 @@ Driver PostgreSQL (`42.5.0`)**: Versão utilizada para evidenciar os impactos de
 ```
 ---
 
-## 🛠️ 3. Detalhamento dos Scripts de Automação
+## 3. Detalhamento dos Scripts de Automação
 
 O diretório `scripts/` contém a automação completa do ciclo de vida dos testes:
 
@@ -190,7 +190,7 @@ Req HTTP ──► [Virtual Thread (VT-1)]
           Executa operação de I/O bloqueante (`Thread.sleep` ou Soquete JDBC)
                   │
                   ▼
-          🔴 THREAD PINNING DETECTADO!
+          ------THREAD PINNING DETECTADO!------
           A Virtual Thread NÃO pode ser desmontada da Carrier Thread (ForkJoinWorkerThread).
           A Carrier Thread fica 100% PARALISADA aguardando o I/O terminar.
                   │
