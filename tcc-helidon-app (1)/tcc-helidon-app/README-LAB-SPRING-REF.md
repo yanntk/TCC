@@ -408,7 +408,7 @@ tcc-streaming-app-completo/
 
 ---
 
-## 🔬 9. Diagnóstico de Thread Pinning com JDK Mission Control
+## 9. Diagnóstico de Thread Pinning com JDK Mission Control
 
 Para analisar as gravações do Java Flight Recorder (`.jfr`) geradas automaticamente durante a execução do script:
 
