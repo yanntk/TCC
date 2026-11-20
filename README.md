@@ -1,9 +1,9 @@
 
-## 🎓 Apresentação Interativa do TCC
+## 🎓 Apresentação Interativa 
 
 Simulador interativo desenvolvido para demonstrar o funcionamento das **Virtual Threads no Java 21**, os efeitos do *Thread Pinning* e os impactos no acesso ao banco de dados utilizando JDBC.
 
-### 🚀 Acessar o simulador
+###  Acessar o simulador
 
 <p align="center">
   <a href="https://sites.google.com/dcx.ufpb.br/simuladorinterativo-defesatccv/full-page-embed">
@@ -11,7 +11,7 @@ Simulador interativo desenvolvido para demonstrar o funcionamento das **Virtual 
   </a>
 </p>
 
-### 📚 Conteúdo da apresentação
+###  Conteúdo da apresentação
 
 - Arquitetura das Virtual Threads (JEP 444).
 - Execução sem Thread Pinning.
@@ -20,7 +20,7 @@ Simulador interativo desenvolvido para demonstrar o funcionamento das **Virtual 
 - Controle de concorrência utilizando Semaphore.
 - Comparação dos resultados experimentais.
 
-### 🛠️ Tecnologias utilizadas
+###  Tecnologias utilizadas
 
 - Java 21
 - Spring Boot
