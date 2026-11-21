@@ -29,3 +29,23 @@ Simulador interativo desenvolvido para demonstrar o funcionamento das **Virtual 
 - JDBC
 - Apache JMeter
 
+### Ordem de execução do experimento
+1. Preparar o ambiente
+   
+   Java, Maven, PostgreSQL e JMeter.
+2. Preparar o banco
+   
+   Criar tcc_streaming e importar o esquema e os dados.
+3. Compilar a aplicação
+   
+   mvn -DskipTests package
+4. Executar os servidores
+   
+   Iniciar as configurações de execução utilizadas no experimento.
+5. Executar os testes de carga
+   
+   Utilizar os planos JMeter.
+6. Gerar os resultados
+   
+   Executar o relatório Python e analisar os dados e gravações JFR.
+
