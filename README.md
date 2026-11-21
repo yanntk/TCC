@@ -29,7 +29,7 @@ Simulador interativo desenvolvido para demonstrar o funcionamento das **Virtual 
 - JDBC
 - Apache JMeter
 
-### Ordem de execução do experimento e da dependencias.
+### Ordem de execução do experimento e das dependencias.
 1. Preparar o ambiente
    
    Java, Maven, PostgreSQL e JMeter.
